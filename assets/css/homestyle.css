@@ -109,36 +109,86 @@ div {
 #mail {
 	height: 80%;
 	padding: 2;
-	opacity: 0.5;
+	opacity: 0.5;	
 }
 
 #content {
-	position: absolute;
-	display: inline-block;
-	width: 100%;
-	height: 100%;
+	position: relative;
+	width: 1440px;
+	top: 40px;
+	margin: 0 auto;
+	padding: 20px;
 }
 
 .card {
 	position: absolute;
-	background-color: black;
 	width: 450px;
-	height: 250px;
-	margin-left: 100px;
-	margin-top: 100px;
+	height: 300px;
+}
+
+.description {
+	position: relative;
+	height: 20%;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 20px;
+	font-weight: bold;
+	bottom: 0;
+}
+
+.thumbnail {
+	position: absolute;
+	display: inline-block;
+	width: 90%;
+	height: 80%;
+	margin-left: 45px;
+	bottom: 0;
+}
+
+.thumbnail img {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+}
+
+#card1, #card2, #card3 {
+	margin-top: 50px;
+}
+
+#card4, #card5, #card6 {
+	margin-top: 400px;
+}
+
+#card2, #card5 {
+	left: 500px;
+}
+
+#card3, #card6 {
+	left: 980px;
 }
 
 .votebox {
 	position: absolute;
-	height: 100%;
+	height: 80%;
 	width: 10%;
-	background-color: blue;
+	bottom: 0;
 }
 
 .votebox img {
-	position: relative;
+	position: absolute;
 	width: 50%;
-	margin: 0 auto;
+	margin-left: 11.25px;
+	cursor: pointer;
+}
+
+#uparrow {
+	margin-top: 100px;
+}
+
+#downarrow {
+	margin-top: 125px;
+	opacity: 0.5;
 }
 
 
