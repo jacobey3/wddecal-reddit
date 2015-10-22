@@ -15,6 +15,7 @@ span {
 	vertical-align: middle;
 	opacity: 0.8;
 	cursor: pointer;
+	padding-top: 30px;
 }
 
 #navbar {
@@ -124,9 +125,9 @@ span {
 #content {
 	position: relative;
 	width: 1440px;
-	top: 40px;
+	top: 70px;
 	margin: 0 auto;
-	padding: 20px;
+	padding-top: 20px;
 	background-color: #EFF7FF;
 }
 
@@ -166,7 +167,7 @@ span {
 	margin-left: 10px;
 	position: relative;
 	height: 80%;
-	width: 80%;
+	width: 85%;
 	cursor: pointer;
 }
 
@@ -179,11 +180,11 @@ span {
 }
 
 #card2, #card5 {
-	left: 500px;
+	left: 34.25%;
 }
 
 #card3, #card6 {
-	left: 980px;
+	right: 0%;
 }
 
 .votebox {
